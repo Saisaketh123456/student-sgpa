@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Information Form</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Information Form</h2>
+    <form action="deploy" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="usn">USN:</label>
+            <input type="text" id="usn" name="usn" required>
+        </div>
+        <div class="form-group">
+            <label for="sem">Semester:</label>
+            <select id="sem" name="sem">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="subject1">Subject 1:</label>
+            <input type="text" id="subject1" name="subject1">
+            <label for="credits1">Credits:</label>
+            <input type="number" id="credits1" name="credits1" min="1" required>
+        </div>
+        <div class="form-group">
+            <label for="subject2">Subject 2:</label>
+            <input type="text" id="subject2" name="subject2">
+            <label for="credits2">Credits:</label>
+            <input type="number" id="credits2" name="credits2" min="1" required>
+        </div>
+        <div class="form-group">
+            <label for="subject3">Subject 3:</label>
+            <input type="text" id="subject3" name="subject3">
+            <label for="credits3">Credits:</label>
+            <input type="number" id="credits3" name="credits3" min="1" required>
+        </div>
+        <div class="form-group">
+            <label for="subject4">Subject 4:</label>
+            <input type="text" id="subject4" name="subject4">
+            <label for="credits4">Credits:</label>
+            <input type="number" id="credits4" name="credits4" min="1" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
